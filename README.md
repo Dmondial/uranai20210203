@@ -30,3 +30,6 @@ Things you may want to cover:
 
 ##　特徴
 　結果は、楽器名と楽器にまつわる内容を返す。
+
+model instrument
+model genre

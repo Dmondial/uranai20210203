@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  root to:"fortunes#index"
-  resources :fortunes , only:[:index, :show]
+  root to:"fortunes#new"
+  resources :fortunes , only:[:index, :show, :new]
 end
