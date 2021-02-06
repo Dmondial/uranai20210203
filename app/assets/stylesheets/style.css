@@ -1,0 +1,30 @@
+.content {
+  width:800px;
+  margin: auto;
+  background: blue;
+}
+
+.main_title{
+  background-color: burlywood;
+}
+
+.explain{
+  background-color: chartreuse;
+}
+
+.input {
+  align-items: center;
+  margin: auto;
+}
+
+.exp{
+  background-color: crimson;
+}
+
+.text{
+  background-color:darkcyan;
+}
+
+.submit{
+  background-color: darksalmon;
+}

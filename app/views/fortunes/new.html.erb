@@ -1,11 +1,17 @@
-    <div class="header">
-      <h2>あなたの楽器は？</h2>
+    <div class="content">
+      <div class="main_title">
+        <h2>あなたの楽器は？</h2>
+      </div>
+      <div class="explain">
+        ニックネームを入力して決定ボタンを押すとあなたの楽器が表示されます
+      </div>
+      <div class="input exp">
+        ニックネームを入力してください
+      </div>
+      <form>
+        <input type="text" name="nickname" class="input text">
+        <input type="submit" value="決定" class="input submit">
+      </form>
     </div>
-    <div>ニックネームを入力して決定ボタンを押すとあなたの楽器が表示されます</div>
-    <div>ニックネームを入力してください</div>
-    <form>
-      <input type="text" name="nickname">
-      <input type="submit" value="決定">
-    </form>
 
 <%= link_to "indexページへ移動","fortunes" %>
